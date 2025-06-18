@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics Guide</title>
+    <style>
+        body {
+            background: #f9fafc;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #22223b;
+        }
+        .container {
+            max-width: 760px;
+            margin: 40px auto;
+            background: #fff;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+            border-radius: 10px;
+            padding: 32px 28px;
+        }
+        h1, h2 {
+            color: #386641;
+        }
+        pre, code {
+            background: #f1faee;
+            border-radius: 6px;
+            padding: 2px 6px;
+            font-size: 1em;
+        }
+        pre {
+            padding: 12px 16px;
+            overflow-x: auto;
+        }
+        .tip {
+            background: #e9f5db;
+            border-left: 5px solid #52b788;
+            padding: 12px 18px;
+            margin: 18px 0;
+            border-radius: 7px;
+            font-size: 1em;
+        }
+        ul {
+            margin-left: 22px;
+        }
+        a {
+            color: #386641;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Learn the Basics of HTML</h1>
+        <p>HTML (<strong>HyperText Markup Language</strong>) is the standard language for creating web pages. Here are the essentials developers need to remember:</p>
+        
+        <h2>1. HTML Document Structure</h2>
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    <!-- Content goes here -->
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+        <div class="tip">
+            <strong>Tip:</strong> Every HTML file should start with <code>&lt;!DOCTYPE html&gt;</code> to declare the HTML version.
+        </div>
+        
+        <h2>2. Common HTML Elements</h2>
+        <ul>
+            <li><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> - Headings</li>
+            <li><code>&lt;p&gt;</code> - Paragraph</li>
+            <li><code>&lt;a href="url"&gt;</code> - Link</li>
+            <li><code>&lt;img src="img.jpg" alt="desc"&gt;</code> - Image</li>
+            <li><code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code> - Lists</li>
+            <li><code>&lt;strong&gt;</code>, <code>&lt;em&gt;</code> - Bold and Italics</li>
+            <li><code>&lt;br&gt;</code> - Line Break</li>
+        </ul>
+        
+        <h2>3. Example: A Simple HTML Page</h2>
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My First Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, world!&lt;/h1&gt;
+    &lt;p&gt;This is my first HTML page.&lt;/p&gt;
+    &lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTML"&gt;Learn more about HTML&lt;/a&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+</body>
+</html>
